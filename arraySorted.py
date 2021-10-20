@@ -13,5 +13,5 @@ for i in range(n):
             if x <= array[position]:
                 array.insert(position , x)
                 break
-            position += position
+            position = position + 1
 print(array)
